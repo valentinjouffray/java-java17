@@ -40,7 +40,7 @@ public class Stream_03_Test {
 
 		List<Order> orders = new Data().getOrders();
 
-		// TODO Retrouver la commande avec le prix le plus élevé
+		// TODO Retrouver la commande avec le prix le moins élevé
 		Optional<Order> result = null;
 
 		assertThat(result.isPresent(), is(true));

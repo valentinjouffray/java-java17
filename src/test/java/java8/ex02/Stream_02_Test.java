@@ -23,7 +23,7 @@ public class Stream_02_Test {
 
 		List<Order> orders = new Data().getOrders();
 
-		// TODO Trouver la liste des clients associés aux différentes commandes
+		// TODO Trouver la liste des clients associés aux commandes
 		List<Customer> result = null;
 
 		assertThat(result, hasSize(8));
@@ -34,7 +34,7 @@ public class Stream_02_Test {
 
 		List<Order> orders = new Data().getOrders();
 
-		// TODO Trouver la liste des clients associés aux différentes commandes
+		// TODO Compter le nombre de clients associés aux commandes
 		long result = 0;
 
 		assertThat(result, is(8L));
@@ -45,7 +45,7 @@ public class Stream_02_Test {
 
 		List<Order> orders = new Data().getOrders();
 
-		// TODO Trouver la liste des différents clients associés aux commandes
+		// TODO Trouver la liste des différents clients associés aux commandes (sans doublon)
 		List<Customer> result = null;
 
 		assertThat(result, hasSize(2));
@@ -82,8 +82,7 @@ public class Stream_02_Test {
 		List<Order> orders = new Data().getOrders();
 
 		/*
-		 * TODO Calculer le chiffre d'affaires total de la pizzeria (somme des prix des
-		 * commandes)
+		 * TODO Calculer le prix moyen des commandes de la pizzeria
 		 */
 		OptionalDouble result = null;
 
