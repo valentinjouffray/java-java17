@@ -1,4 +1,4 @@
-package java8.ex01;
+package java17.ex01;
 
 import static org.junit.Assert.fail;
 
