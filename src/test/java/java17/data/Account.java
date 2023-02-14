@@ -1,4 +1,4 @@
-package java8.data;
+package java17.data;
 
 public class Account {
 
