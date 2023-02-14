@@ -1,8 +1,9 @@
-package java8.ex01;
+package java17.ex01;
 
-import java8.data.Data;
-import java8.data.Person;
 import org.junit.Test;
+
+import java17.data.Data;
+import java17.data.Person;
 
 import java.util.ArrayList;
 import java.util.List;
