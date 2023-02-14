@@ -1,4 +1,4 @@
-package java8.data.domain;
+package java17.data.domain;
 
 public class Pizza {
 	private Integer id;

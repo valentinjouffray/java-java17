@@ -1,17 +1,22 @@
-package java8.ex01;
+package java17.ex01;
 
-import java8.data.Data;
-import java8.data.domain.Order;
-import java8.data.domain.Pizza;
-import org.junit.Test;
+import static org.hamcrest.Matchers.anyOf;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.everyItem;
+import static org.hamcrest.Matchers.greaterThan;
+import static org.hamcrest.Matchers.hasProperty;
+import static org.hamcrest.Matchers.hasSize;
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertThat;
 
-import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
-import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.*;
+import org.junit.Test;
+
+import java17.data.Data;
+import java17.data.domain.Order;
+import java17.data.domain.Pizza;
 
 /**
  * Exercice 01 - Recherche
