@@ -1,4 +1,4 @@
-# Workshop Java 11
+# Workshop Java 17
 
 Thèmes abordées :
 
