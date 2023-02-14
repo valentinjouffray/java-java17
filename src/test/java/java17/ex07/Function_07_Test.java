@@ -1,8 +1,8 @@
-package java8.ex07;
-
-import org.junit.Test;
+package java17.ex07;
 
 import java.util.function.IntBinaryOperator;
+
+import org.junit.Test;
 
 /**
  * Exercice 07 - java.util.function.IntBinaryOperator

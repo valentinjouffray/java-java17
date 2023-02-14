@@ -1,9 +1,10 @@
-package java8.ex03;
-
-import java8.data.Person;
-import org.junit.Test;
+package java17.ex03;
 
 import java.util.function.BinaryOperator;
+
+import org.junit.Test;
+
+import java17.data.Person;
 
 /**
  * Exercice 03 - java.util.function.BinaryOperator

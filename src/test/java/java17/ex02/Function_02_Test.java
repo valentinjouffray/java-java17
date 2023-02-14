@@ -1,10 +1,11 @@
-package java8.ex02;
-
-import java8.data.Account;
-import java8.data.Person;
-import org.junit.Test;
+package java17.ex02;
 
 import java.util.function.BiFunction;
+
+import org.junit.Test;
+
+import java17.data.Account;
+import java17.data.Person;
 
 /**
  * Exercice 02 - java.util.function.BiFunction

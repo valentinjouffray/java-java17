@@ -1,11 +1,12 @@
-package java8.ex05;
-
-import java8.data.Data;
-import java8.data.Person;
-import org.junit.Test;
+package java17.ex05;
 
 import java.util.List;
 import java.util.function.Consumer;
+
+import org.junit.Test;
+
+import java17.data.Data;
+import java17.data.Person;
 
 /**
  * Exercice 5 - java.util.function.Consumer

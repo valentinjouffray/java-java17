@@ -1,11 +1,11 @@
-package java8.ex06;
+package java17.ex06;
 
 
 import java.util.function.Supplier;
 
 import org.junit.Test;
 
-import java8.data.Person;
+import java17.data.Person;
 
 /**
  * Exercice 06 - java.util.function.Supplier

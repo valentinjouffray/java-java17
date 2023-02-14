@@ -1,10 +1,11 @@
-package java8.ex01;
-
-import java8.data.Account;
-import java8.data.Person;
-import org.junit.Test;
+package java17.ex01;
 
 import java.util.function.Function;
+
+import org.junit.Test;
+
+import java17.data.Account;
+import java17.data.Person;
 
 
 /**

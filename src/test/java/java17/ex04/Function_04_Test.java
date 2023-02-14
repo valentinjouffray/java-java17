@@ -1,12 +1,13 @@
-package java8.ex04;
-
-import java8.data.Data;
-import java8.data.Person;
-import org.junit.Test;
+package java17.ex04;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
+
+import org.junit.Test;
+
+import java17.data.Data;
+import java17.data.Person;
 
 /**
  * Exercice 4 - java.util.function.Predicate
