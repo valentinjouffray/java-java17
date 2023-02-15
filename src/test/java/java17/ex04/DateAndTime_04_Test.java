@@ -1,4 +1,4 @@
-package java8.ex04;
+package java17.ex04;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package java8.ex02;
+package java17.ex02;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
