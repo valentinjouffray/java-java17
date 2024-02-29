@@ -1,6 +1,6 @@
 # Workshop Java 17
 
-Thèmes abordées :
+Thèmes abordés :
 
 * Méthode par défaut (branche : 01-default-method)
 * Expression Lambda (branche : 02-lambda)
