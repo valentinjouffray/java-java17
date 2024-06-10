@@ -117,24 +117,4 @@ public class Stream_08_Test {
         }
     }
 
-    // Des données figurent dans le répertoire pizza-data
-    // TODO explorer les fichiers pour voir leur forme
-    // TODO compléter le test
-
-    @Test
-    public void test_pizzaData() throws IOException {
-        // TODO utiliser la méthode java.nio.file.Files.list pour parcourir un répertoire
-
-        // TODO trouver la pizza la moins chère
-        String pizzaNamePriceMin = null;
-
-        assertThat(pizzaNamePriceMin, is("L'indienne"));
-
-    }
-
-    // TODO Optionel
-    // TODO Créer un test qui exporte des données new Data().getPizzas() dans des fichiers
-    // TODO 1 fichier par pizza
-    // TODO le nom du fichier est de la forme ID.txt (ex. 1.txt, 2.txt)
-
 }
