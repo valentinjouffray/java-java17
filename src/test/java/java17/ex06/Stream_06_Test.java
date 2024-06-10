@@ -1,13 +1,13 @@
-package java8.ex06;
+package java17.ex06;
 
-import org.junit.Test;
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertThat;
 
 import java.util.logging.Logger;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
-import static org.hamcrest.Matchers.is;
-import static org.junit.Assert.assertThat;
+import org.junit.Test;
 
 /**
  * Exercice 07 - Stream Parallel - Effet de bord

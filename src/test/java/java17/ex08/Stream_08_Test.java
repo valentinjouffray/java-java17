@@ -1,19 +1,14 @@
-package java8.ex08;
+package java17.ex08;
 
-import org.junit.Test;
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertThat;
 
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Stream;
 
-import static java.util.stream.Collectors.*;
-
-import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.*;
+import org.junit.Test;
 
 /**
  * Exercice 5 - Files
@@ -22,9 +17,6 @@ public class Stream_08_Test {
 
     // Chemin vers un fichier de données des naissances
     private static final String NAISSANCES_DEPUIS_1900_CSV = "./naissances_depuis_1900.csv";
-
-    private static final String DATA_DIR = "./pizza-data";
-
 
     // Structure modélisant les informations d'une ligne du fichier
     class Naissance {

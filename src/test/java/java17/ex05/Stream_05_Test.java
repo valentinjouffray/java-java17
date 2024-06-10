@@ -1,16 +1,13 @@
-package java8.ex05;
+package java17.ex05;
 
-import org.junit.Test;
+import static org.hamcrest.Matchers.is;
+import static org.junit.Assert.assertThat;
 
 import java.util.function.Consumer;
-import java.util.function.UnaryOperator;
 import java.util.logging.Logger;
-import java.util.stream.IntStream;
-import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
-import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.*;
+import org.junit.Test;
 
 
 /**

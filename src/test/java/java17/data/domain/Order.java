@@ -1,4 +1,4 @@
-package java8.data.domain;
+package java17.data.domain;
 
 import java.util.ArrayList;
 import java.util.List;
